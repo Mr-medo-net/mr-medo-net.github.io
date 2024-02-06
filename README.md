@@ -20,9 +20,6 @@ You can connect with us through social media:
 - [YouTube](https://www.youtube.com/c/MasterMedo)
 - [LinkedIn](https://linkedin.com/in/mr-medo)
 
-## License
-The project is distributed under the [MIT License](LICENSE).
-
 ---
 This project was created by Mr-Medo. For more information, please visit [mr-medo.net](https://www.mr-medo.net/).
 # مستر ميدو - Mr-Medo
@@ -47,8 +44,6 @@ This project was created by Mr-Medo. For more information, please visit [mr-medo
 - [YouTube](https://www.youtube.com/c/MasterMedo)
 - [LinkedIn](https://linkedin.com/in/mr-medo)
 
-## ترخيص
-يتم توزيع المشروع تحت [رخصة MIT](LICENSE).
 
 ---
 تم إنشاء هذا المشروع بواسطة مستر ميدو. لمزيد من المعلومات، يرجى زيارة [mr-medo.net](https://www.mr-medo.net/).
