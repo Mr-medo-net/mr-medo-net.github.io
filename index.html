@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>مستر ميدو - Mr-Medo</title>
-    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
     <link rel="stylesheet" href="/main.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" crossorigin="anonymous">
     <link href="https://www.mr-medo.net/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Meta Tags -->
@@ -147,6 +145,27 @@ function myFunction() {
             </div>
         </div>
     </div>
-<script>/*fix*/</script>
+    <script type="text/javascript">//<![CDATA[
+    var cb = function () {
+        // Load Google Font "Tajawal"
+        var gf = document.createElement("link");
+        gf.rel = "stylesheet";
+        gf.href = "https://fonts.googleapis.com/css?family=Tajawal";
+        gf.crossOrigin = "anonymous";
+        gf.anonymous = true;
+        document.head.appendChild(gf);
+        
+        // Load Font Awesome
+        var fa = document.createElement("script");
+        fa.src = "https://kit.fontawesome.com/4ad360bfd2.js";
+        fa.async = "async"; 
+        fa.async = true;
+        document.head.appendChild(fa);
+    };
+    
+    var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(cb);
+    else window.addEventListener("load", cb);
+//]]></script>
 </body>
 </html>
